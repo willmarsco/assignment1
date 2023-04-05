@@ -1,3 +1,146 @@
+html {
+  color: #201E21;
+  font-size: 125%;
+}
+
+nav {
+  font-size: medium;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+body,
+nav {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.01rem;
+  line-height: 1.45rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+  font-family: "East Sea Dokdo", cursive;
+  margin: 0;
+}
+
 header {
-  background-image: url(.../assets/grpup-4@2xpng);
+  background-image: url(../../assets/group-4@2x.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+header .topNav {
+  display: flex;
+  padding-left: 0;
+  margin-top: 1rem;
+  width: 33%;
+}
+header li {
+  margin: 0 1rem;
+}
+
+.socialContent {
+  flex-direction: column;
+  position: absolute;
+  align-items: flex-end;
+  bottom: 2rem;
+  right: 1rem;
+  text-align: center;
+}
+
+.about {
+  background-color: #FFE9E9;
+}
+.about .newProduct {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+.about .textContainer {
+  width: 75%;
+  padding-left: 2rem;
+}
+.about .imageContainer {
+  width: 50%;
+}
+.about button {
+  background-color: #0178A5;
+}
+
+.latestGallery {
+  background-color: #F7DAE8;
+}
+.latestGallery .wrapper {
+  padding: 5rem 0;
+}
+.latestGallery h2 {
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 2rem;
+}
+.latestGallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.navTwo {
+  background-color: #FFE9E9;
+}
+.navTwo .ul {
+  display: flex;
+}
+.navTwo .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navTwo .wrapper h3 {
+  color: #201E21;
+}
+.navTwo .wrapper h3 a {
+  display: inline-block;
+  width: 100%;
+  color: #0178A5;
+  margin-bottom: 1rem;
+}
+
+.boxGallery {
+  background-color: #F7DAE8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: block;
+  width: 50%;
+  align-content: flex-start;
+}
+
+footer {
+  background-color: #FFE9E9;
+}
+footer .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .form {
+  text-align: center;
+  width: 50%;
 }

@@ -1,0 +1,97 @@
+@use "./styleguide" as *;
+
+// products
+
+.about {
+    background-color: $verylighpink;
+
+    .newProduct{
+        display: flex;
+        align-items: center;
+        padding: 3rem 0;
+    }
+
+    .textContainer {
+        width: 75%;
+        padding-left: 2rem;
+    }
+
+    .imageContainer {
+        width: 50%;
+    }
+
+    button {
+        background-color: $oceanblue;
+    }
+}
+
+// exhibtions gallery
+
+.latestGallery {
+    background-color: $lighpink;
+
+    .wrapper {
+        padding: 5rem 0;
+    }
+
+
+    h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 2rem;
+    }
+
+    ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    }
+
+}
+
+// middle nav icons
+
+.navTwo{
+    background-color: $verylighpink;
+
+    .ul {
+        display: flex;
+
+    }
+
+    .wrapper {        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        h3{
+            color: $dark;
+
+            a{
+                display: inline-block;
+                width: 100%;
+                color:$oceanblue;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+// last main section
+
+.boxGallery {
+    background-color: $lighpink;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1, 
+.box2,
+.box3,
+.box4 {
+    display: block;
+    width: 50%;
+    align-content: flex-start;
+}

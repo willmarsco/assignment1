@@ -1,3 +1,39 @@
 header {
-    background-image: url(.../assets/grpup-4@2xpng);
+    background-image: url(../../assets/group-4@2x.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+    }
+
+    .topNav {
+        display: flex;
+        padding-left: 0;
+        margin-top: 1rem;
+        width: 33%;
+
+    }
+
+    li {
+        margin:0 1rem;
+    }
+
+   
 }
+
+    .socialContent {
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-end;
+    bottom: 2rem;
+    right: 1rem;
+    text-align: center;
+}
+
+
+   
