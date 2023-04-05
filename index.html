@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paint Gallery</title>
+    <script src="https://kit.fontawesome.com/9f747761be.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-        <!-- creating buttons at the top of page -->
-        <header>
-            <div class="wrapper">
-                <h1>Paint Gallery</h1>
+    <!-- creating buttons at the top of page -->
+    <header>
+        <div class="wrapper">
             <nav>
                 <ul>
                     <li>
@@ -27,11 +30,149 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-            </nav>    
+            </nav>
+            <div class="socialContent">
+                <h1>Paint Gallery</h1>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-snapchat"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <section class ="about" id="about">
+            <div class="newProduct">
+                <div class="imageContainer">
+                    <img src="./assets/image-6@2x.png"alt="paint on shelf">
+                
+                </div>
+                <div class="textContainer">   
+                    <h2>New product on the shelves</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga dolor tenetur quis, exercitationem fugiat illo sit. Dolore quia, placeat atque inventore eos impedit assumenda maiores dicta cumque voluptate alias?</p>
+                    <button>read more</button>
+                </div>
+                <div class="wrapper">
+                    <h2>latest exhibitions</h2>
+                    <ul class="latestGallery">
+                        <li class="imgOne">
+                            <img src="./assets/gallery-image-1@2x.png" alt="close up of dried paint">
+                        </li>
+                        <li class="imgTwo">
+                            <img src="./assets/gallery-image-3@2x.png" alt="paint buckets and bottles">
+                        </li>
+                        <li class="imgThree">
+                            <img src="./assets/gallery-image-2@2x.png" alt="close up of freshly paint">
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </section>
+        
+        <!-- Section Two -->
+
+        <section id="navTwo" class="navTwo">
+            <ul class="wrapper">
+                <li>
+                    <a href="#">
+                        <i class="fa-light fa-images"></i>
+                        <h3>catologue</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <h3>events</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-handshake"></i>
+                        <h3>collaborations</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- Box Section -->
+        <section id="boxGallery" class="boxGallery">
+            <ul>
+                <li class="box1">
+                    <div class="boxContainer">
+                        <h2>Finding the right brushes</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora libero maxime dicta sequi repellendus iure quasi accusamus, voluptatum perferendis id dolores esse ducimus assumenda eaque numquam veritatis blanditiis consequatur.</p>
+                            <button>read more</button>
+                    </div>
+                </li>
+                <li class="box2"></li>
+                <li class="box3"></li>
+                <li class="box4"></li>
+                    <div class="boxContainer">
+                        <h2>All kind of paints</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis animi expedita esse. Eveniet deleniti cupiditate voluptatum voluptates, optio, excepturi vel tempore itaque, quaerat velit cumque labore ducimus ut necessitatibus beatae!</p>
+                            <button>read more</button>
+                    </div>                    
+            </ul>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <nav>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </nav>
+        <div class="wrapper">
+            <div class="subscribe">
+                <h3>Stay updated</h3>
+                <form action="#" method="#" name="subscriptionForm">
+                    <label for="email" class="email">Subscribe to our newsletter to stay updated</label>
+                    <div class="subscribeInput">
+                        <input type="text" id="email" name="email" placeholder="email address">
+                        <button type="submit">subscribe</button>
+                    </div>
+                </form>
             </div>
-        </header>
-        <main>
-            
-        </main>
+            <div class="footerContact">
+                <h4>Contact</h4>
+                <ul>
+                    <li>info@email | 123-456-7890</li>
+                    <li>123 some road, Toronto, ON</li>
+                    <li>A5A 5A5, Canada</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+                
+       
 </body>
 </html>
